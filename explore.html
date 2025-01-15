@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libero.ba</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pridi:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--Navigacija-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="index.html" id="navbar_logo">Libero.ba</a>
+            <input class="search_bar" type="text" name="search_bar" placeholder="...">
+            <ul class="navbar_items">
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_links" id="home-page">Home</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="index.html" class="navbar_links" id="about-page">About</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="explore.html" class="navbar_links" id="explore-page">Explore</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="login.html" class="button" id="loginButton">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero-->
+
+    <div class="intro">
+        <div class="intro_container">
+            <div class="intro_content">
+                <img src="images/iamge2.svg" alt="">
+                <p>Dobrodošli na vašu polaznu tačku za nezaboravne planinarske avanture! Bilo da ste iskusni
+                planinar ili tek započinjete svoje istraživanje prirodnih ljepota, ovdje ćete pronaći ture koje odgovaraju vašim željama i
+                sposobnostima. Naša misija je da vas povežemo s čarolijom prirode, pružajući sigurna i inspirativna iskustva koja će vas
+                približiti najlepšim vrhovima, stazama i pejzažima. Krenite s nama na putovanje koje će probuditi vaš avanturistički duh
+                i stvoriti uspomene za cijeli život!</p>    
+            </div>
+        </div>
+    </div>
+
+
+    <div class="explore" id="explore-section">
+        <div class="explore_container">
+            <div class="explore_head">
+                <h1>Najpoznatije</h1>
+                <h2>Ture</h3>
+            </div>
+            <div class="divider"></div>
+            <div class="card_wrapper">
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika12.jpg" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Maglic</h4>
+                        <p>Nadmorska visina: 2.386 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 12,4 km</p>
+                        <p>Trajanje: 7:20 sati</p>
+                        <button class="card_button" popup-id="popup1">Vise</button>
+                    </div>
+                    
+                </div>
+            
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika5.jfif" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Treskavica</h4>
+                        <p>Nadmorska visina: 1.699 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 16,5 km</p>
+                        <p>Trajanje: 5:35 sati</p>
+                        <button class="card_button" popup-id="popup2">Vise</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika6.jfif" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Zelengora</h4>
+                        <p>Nadmorska visina: 1.706 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 5,5 km</p>
+                        <p>Trajanje: 1:45 sati</p>
+                        <button class="card_button" popup-id="popup3">Vise</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika71.jfif" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Volujak</h4>
+                        <p>Nadmorska visina: 2.336 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 15.49 km</p>
+                        <p>Trajanje: 9:15 sati</p>
+                        <button class="card_button" popup-id="popup4">Vise</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika8.jpg" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Skakavac</h4>
+                        <p>Nadmorska visina: 1.246 m</p>
+                        <p>Dužina: 9.2 km</p>
+                        <p>Trajanje: 3:15 sati</p>
+                        <button class="card_button" popup-id="popup5">Vise</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika9.webp" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Trebević</h4>
+                        <p>Nadmorska visina: 1.629 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 7.3 km</p>
+                        <p>Trajanje: 4:45 sati</p>
+                        <button class="card_button" popup-id="popup6">Vise</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika10.jfif" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Prenj</h4>
+                        <p>Nadmorska visina: 1.902 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 20.1 km</p>
+                        <p>Trajanje: 8:14 sati</p>
+                        <button class="card_button" popup-id="popup7">Vise</button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="image_content">
+                        <span class="overlay"></span>
+                        <div class="card_image">
+                            <img src="images/slika11.jpg" class="card_img" alt="">
+                        </div>
+                    </div>
+                    <div class="card_content">
+                        <h4 class="card_title">Čvrsnica</h4>
+                        <p>Nadmorska visina: 2.117 m</p>
+                        <p>Planinski lanac: Dinaridi</p>
+                        <p>Dužina: 35.5 km</p>
+                        <p>Trajanje: 13:13 sati</p>
+                        <button class="card_button" popup-id="popup8">Vise</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="long_card_container">
+                <div class="long_card">
+                    <div class="image_content">
+                        <div class="card_image">
+                            <img src="images/slika19.jpg" alt="" class="card_img">
+                        </div>
+                    </div>
+            
+                    <div class="long_card_content">
+                        <h4 class="card_title">Cincar</h4>
+                        <p>Nadmorska visina: 2.006 m<i class="fa-solid fa-mountain"></i></p>
+                        <p>Planinski lanac: Dinaridi<i class="fa-solid fa-link"></i></p>
+                        <p>Dužina: 16.68 km<i class="fa-solid fa-person-hiking"></i></i></p>
+                        <p>Trajanje: 7:38 sati<i class="fa-solid fa-clock"></i></p>
+                    </div>
+                    <button class="long_card_button" popup-id="popup9">Vise</button>
+                </div>
+
+
+                <div class="long_card">
+                    <div class="image_content">
+                        <div class="card_image">
+                            <img src="images/slika20.jpg" alt="" class="card_img">
+                        </div>
+                    </div>
+                
+                    <div class="long_card_content">
+                        <h4 class="card_title">Vranica</h4>
+                
+                        <p>Nadmorska visina: 2.110 m<i class="fa-solid fa-mountain"></i></p>
+                        <p>Planinski lanac: Dinaridi<i class="fa-solid fa-link"></i></p>
+                        <p>Dužina: 12.3 km<i class="fa-solid fa-person-hiking"></i></i></p>
+                        <p>Trajanje: 6:14 sati<i class="fa-solid fa-clock"></i></p>
+                    </div>
+                    <button class="long_card_button" popup-id="popup10">Vise</button>
+                </div>
+
+                <div class="long_card">
+                    <div class="image_content">
+                        <div class="card_image">
+                            <img src="images/slika21.jpg" alt="" class="card_img">
+                        </div>
+                    </div>
+                
+                    <div class="long_card_content">
+                        <h4 class="card_title">Vran</h4>
+                
+                        <p>Nadmorska visina: 2.074 m<i class="fa-solid fa-mountain"></i></p>
+                        <p>Planinski lanac: Dinaridi<i class="fa-solid fa-link"></i></p>
+                        <p>Dužina: 16.1 km<i class="fa-solid fa-person-hiking"></i></i></p>
+                        <p>Trajanje: 7:12 sati<i class="fa-solid fa-clock"></i></p>
+                    </div>
+                    <button class="long_card_button" popup-id="popup11">Vise</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="popup" id="popup1">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Maglić</h2>
+                <p>Maglić je dinarska planina na granici Bosne i Hercegovine i Crne Gore oko 20 km jugozapadno od Foče. Najviši vrh (2.396
+                m) se nalazi u Crnoj Gori, dok je na bosanskoj strani planine najviši vrh Maglić sa 2.386 metara nadmorske visine. To je
+                ujedno i najviši vrh Bosne i Hercegovine.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 2.386 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 12,4 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 7:20 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 55KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d13816.99598738869!2d18.723816781719282!3d43.27938104259938!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m0!4m5!1s0x134cd9c2366fd865%3A0x62316be5f6cd649a!2zTWFnbGnEhw!3m2!1d43.2813063!2d18.7332362!5e0!3m2!1shr!2sba!4v1735067960832!5m2!1shr!2sba"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> 
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Treskavica</h2>
+                <p>Treskavica je planina u centralnoj Bosni i Hercegovini, koja se svojim južnim obroncima, kod Kalinovika, spušta u
+                Hercegovinu.Na zapadu je i Visočica od koje je dijeli rijeka Ljuta. Od Sarajeva je udaljena oko 30 km. Pripada lancu dinarskih
+                planina. Dobila je ime po čestim manjim zemljotresima.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 1.699 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 16,5 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 5:35 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 45KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369895.4166617671!2d17.745838165283192!3d43.58971659675888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758a43cc1c50019%3A0x3770b1cf3ea729d!2sTreskavica!5e0!3m2!1shr!2sba!4v1736112111312!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup3">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Zelengora</h2>
+                <p>Zelengora je planina u sjeveroistočnoj Hercegovini, BiH, koja se nalazi u sklopu Nacionalnog parka Sutjeska.
+                Najpoznatija je po velikom broju ledenjačkih jezera, od kojih su najpoznatija Kotlaničko jezero, Orlovačko jezero,
+                Štirinsko jezero, Jugovo jezero, Donje Bare, Gornje Bare i dr.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 1.706 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 5,5 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 1:45 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 35KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d696.9395105444935!2d18.545783052140514!3d43.35440496266695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134cce44de359db7%3A0x8daef18f19892fd0!2sZelengora!5e1!3m2!1shr!2sba!4v1736112518237!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup4">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Volujak</h2>
+                <p>Volujak je planina u graničnom području Bosne i Hercegovine i Crne Gore. Pruža se u smjeru sjeverozapad-jugoistok, a od
+                Maglića ga odvaja potok Suha na sjeveru.Obronci planine, koji se strmo spuštaju u Sutjesku, pružaju mogućnost opstanka divljih životinja. Planina je bogata
+                ljekovitim biljem, jagodičastim voćem, gljivama.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 2.336 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 15.49 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 9:15 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 60KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2791.8698714844527!2d18.672959911536676!3d43.26482248421857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sVolujak!5e1!3m2!1shr!2sba!4v1736112691789!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup5">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Skakavac</h2>
+                <p>Obilazak iz Sarajeva do vodopada Skakavca se smatra poludnevnom turom za posjetioce sa fizičkom kondicijom, dok ostali
+                trebaju predvidjeti duže pješačenje. Moguć je dolazak biciklom.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 1.246 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 9.2 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 3:15 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 20KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d820.6461051373087!2d18.448809772786813!3d43.9485790386404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSkakavac!5e1!3m2!1shr!2sba!4v1736112889895!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup6">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Trebević</h2>
+                <p>Naziv Trebević je slavenskog porijekla i označava deminutiv slavenskog glagola trebiti, trijebiti, koji je u
+                svakodnevnom govornom jeziku zamijenjen glagolima žrtvovati, uništavati. Trebević vodi porijeklo od izraza Trebišta, pod
+                kojim se u staroslavenskom jeziku označavao žrtvenik.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 1.629 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 7.3 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 4:45 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 30KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38744.18367524649!2d18.451529728400892!3d43.800280100512815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c77148d37f83%3A0xbf44577e998b0db7!2zVHJlYmV2acSH!5e0!3m2!1shr!2sba!4v1736113070842!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup7">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Prenj</h2>
+                <p>Prenj je planinski masiv u sjeverozapadnom dijelu istočne Hercegovine s mnogim vrhovima od kojih je najviši Zelena glava
+                (2123 metra n/m). Prenj je smješten u središnjem dijelu Dinarida. Okružuju ga jezera (prirodna i umjetna) Boračko, Jablaničko, Grabovičko,
+                Salakovačko kao i rijeke Neretva, Ljuta, Neretvica i Bijela</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 1.902 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 20.1 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 8:14 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 70KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88936.11805568745!2d17.831369127582587!3d43.539216413396325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b525322dcc23d%3A0xb47f9b8bc3b36bcb!2sPrenj!5e1!3m2!1shr!2sba!4v1736113269820!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup8">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Čvrsnica</h2>
+                <p>Čvrsnica je jedna je od najviših planina u Bosni i Hercegovini. Smještena je u sjevernom dijelu Hercegovine i ujedno je
+                sa najvećim vrhom u Hercegovini (Pločno 2228nm). Zbog neobične ljepote njenog prirodnog okoliša redovito je odredište planinara iz
+                zemlje i cijele regije. U njenoj neposrednoj blizini nalazi se i nešto niža Vran-planina (2074m).</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 2.117 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 35.5 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 13:13 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 70KM</p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38846.83872925589!2d17.625087482326162!3d43.64174817076365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f6037d59ab1cb%3A0x2ef649a7fa16d003!2zxIx2cnNuaWNh!5e0!3m2!1shr!2sba!4v1736113559634!5m2!1shr!2sba"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup9">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Cincar</h2>
+                <p>Do polovice 20. stoljeća Cincer je bilo službeno ime u većini dokumenata. U domaćih Hrvata ikavaca, u pučkom govoru zvali su ga Ćinćer. Nešto poslije Drugoga svjetskog rata izvorni je naziv promijenjen i novi službeni naziv je "Cincar</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 2.006 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 16.68 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 7:38 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 60KM</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27347.164494827364!2d17.046585351499065!3d43.90727816988922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f930132dc7f65%3A0x2ffebe3a76680253!2sCincar!5e0!3m2!1shr!2sba!4v1736534637217!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="popup10">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Vranica</h2>
+                <p>Vranica je najsjevernija od svih bosanskohercegovačkih planina čija visina prelazi 2000 metara. Smještena u centralnoj Bosni, bukvalno u srcu BiH, a obuhvata veliko područje u trouglu zmeđu gradova Kiseljak, Vitez i Gornji Vakuf, uključujuću tu i Fojnicu koja se ugnijezdila u njenom naručju.</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 2.110 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 12.3 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 6:14 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 50KM</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d27323.987871473775!2d17.665170870323074!3d43.95770149195597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svranica%20planinarske%20ture!5e0!3m2!1shr!2sba!4v1736535019879!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="popup" id="popup11">
+        <div class="overlay_popup">
+            <div class="popup_content">
+                <h2>Vran</h2>
+                <p>Nalazi se na području općine Tomislavgrada istočno od tog grada, na pola puta do Jablanice, južno od Ramskog jezera. Vran planina diže se iznad Dugog polja na suprotnu stranu od Čvrsnice. Okružen je s jugoistoka Dugim poljem (1187 m) i Blidinjskim jezerom (1183 m), s istoka Dragajice (1435 m)</p>
+                <div class="details">
+                    <div class="information">
+                        <p><i class="fa-solid fa-mountain"></i> Nadmorska visina: 2.074 m</p>
+                        <p><i class="fa-solid fa-link"></i> Planinski lanac: Dinaridi</p>
+                        <p><i class="fa-solid fa-person-hiking"></i> Dužina: 16.1 km</p>
+                        <p><i class="fa-solid fa-clock"></i> Trajanje: 7:12 sati</p>
+                        <p><i class="fa-solid fa-flag"></i> Tezina ture: ★★★★</p>
+                        <p><i class="fa-solid fa-money-bill"></i> Cijena: 55KM</p>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44366.74937826049!2d17.479575036901963!3d43.676409921802616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f62ac14c7d483%3A0x54e8a5342c33c128!2sVran!5e1!3m2!1shr!2sba!4v1736535416022!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="controls">
+                    <button class="close_popup">Zatvori</button>
+                    <button class="add_tura"><i class="fa-solid fa-cart-shopping"></i> Dodaj turu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!--Footer-->
+    <div class="footer_container">
+        <div class="footer_links">
+            <div class="footer_link_wraper">
+                <div class="footer_link_items">
+                    <h2>O Nama</h2>
+                    <a href="/">Kako radimo</a>
+                    <a href="/">Posvete</a>
+                    <a href="/">Ulaganja</a>
+                    <a href="/">Uvjeti korištenja</a>
+                </div>
+                <div class="footer_link_items">
+                    <h2>Kontaktirajte nas</h2>
+                    <a href="/">Kontaktirajte podršku</a>
+                    <a href="/">Sponzorstva</a>
+                </div>
+            </div>
+            <div class="footer_link_wraper">
+                <div class="footer_link_items">
+                    <h2>Galerija</h2>
+                    <a href="/">Postavi video</a>
+                    <a href="/">Agencija</a>
+                    <a href="/">Influenseri</a>
+                </div>
+                <div class="footer_link_items">
+                    <h2>Društvene mreže</h2>
+                    <a href="https://www.instagram.com/accounts/login/">Instagram</a>
+                    <a href="https://www.facebook.com/?locale=hr_HR">Facebook</a>
+                    <a href="https://www.youtube.com/">You Tube</a>
+                    <a href="https://x.com/i/flow/login?lang=en">X</a>
+                </div>
+            </div>
+        </div>
+        <div class="social_media">
+            <div class="social_media_wrapper">
+                <div class="footer_logo">
+                    <a href="index.html" id="footer_logo">Libero.ba</a>
+                </div>
+                <p class="website_rights">Libero 2024. Sva Prava zadržana</p>
+                <div class="social_icons">
+                    <a href="https://www.instagram.com/accounts/login/" class="social_icon_link">
+                        <i class="fab fa-instagram" target="_blank"></i>
+                    </a>
+                    <a href="https://www.facebook.com/?locale=hr_HR" class="social_icon_link">
+                        <i class="fab fa-facebook" target="_blank"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="social_icon_link">
+                        <i class="fab fa-youtube" target="_blank"></i>
+                    </a>
+                    <a href="https://x.com/i/flow/login?lang=en" class="social_icon_link">
+                        <i class="fab fa-x" target="_blank"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js.js">
+
+    </script>
+</body>
+
+</html>
